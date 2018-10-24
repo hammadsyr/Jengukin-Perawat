@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Suggestion"
+            android:textStyle="bold"
+            android:id="@+id/textView3"
+            android:textColor="#F50057"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etSuggestion"
+            android:textSize="12sp"
+            android:textColor="#F50057"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="#E6E7E8"
+            android:layout_weight="1"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Obat"
+            android:textStyle="bold"
+            android:id="@+id/textView15"
+            android:textColor="#F50057"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etObat"
+            android:textSize="14dp"
+            android:textColor="#F50057"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="#E6E7E8"
+            android:layout_weight="1"
+            android:padding="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Simpan"
+            android:id="@+id/btnAdd"
+            android:layout_gravity="right"
+            android:textColor="#ffffff"
+            android:background="#F50057"
+            android:layout_margin="16dp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvSuggestionObat" />
+
+</LinearLayout>

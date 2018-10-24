@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.affereaflaw.ux">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Offline"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Jengukin-Perawat"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".SplashScreen" android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".MainMenu" />
+        <activity
+            android:name=".Suggestion"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".About" />
+        <activity android:name=".Forget" />
+        <activity
+            android:name=".Login"
+            android:windowSoftInputMode="stateHidden" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Pasien"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Help" />
+        <activity
+            android:name=".PasienView"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Timeline" />
+        <activity android:name=".ChatView"></activity>
+    </application>
+
+</manifest>

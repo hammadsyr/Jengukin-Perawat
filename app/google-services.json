@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "906983341541",
+    "firebase_url": "https://kesehatan1-11882.firebaseio.com",
+    "project_id": "kesehatan1-11882",
+    "storage_bucket": "kesehatan1-11882.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906983341541:android:5671512dfa1ea768",
+        "android_client_info": {
+          "package_name": "com.example.affereaflaw.ux"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906983341541-vk3jvha7fdo8oum04ku00mn8j1n4tu0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALen8N3BnEtQmHyTFpAFJCjQlasqhvBtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
